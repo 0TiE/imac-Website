@@ -1,0 +1,82 @@
+.hr-1 {
+    border-style: solid;
+    border-color: rgb(218, 225, 231);
+    border-width: 3px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.logo-img {
+    height: 60px;
+    background-image: url(resources/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.mb {
+    border-radius: 20px;
+}
+
+.L1:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.cardbutton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.singleproduct {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.singleproduct img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.singleproduct:hover img {
+    cursor: zoom-in;
+    transform: scale(1.3);
+}
+
+
+/* pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+/* pagination */
